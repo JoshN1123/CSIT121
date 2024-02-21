@@ -1,0 +1,29 @@
+body{
+    background-color:#8A9DBA;
+    color:black;
+}
+
+h1{
+    font-family: Bippo, fantasy;
+}
+
+em{
+    font-family: Bradley Hand, cursive;
+}
+
+ul{
+    text-transform:uppercase;
+    margin:5%;
+}
+
+ol{
+    margin: 5%;
+}
+
+a{
+    color:red
+}
+
+p{
+   font-family: Apple Chancery, cursive; 
+}
