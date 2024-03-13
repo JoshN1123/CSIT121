@@ -1,0 +1,95 @@
+
+#wrapper {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+body{
+    background-color: #d3b683;
+    color:black; 
+} 
+
+ul {
+    background-image: url(images/aimac.jpg);
+    background-size: 200px; 
+    height: 200px;
+    background-repeat: no-repeat; 
+    background-position: right center;
+    background-position: 80% center;
+    
+}
+
+ul{
+    text-transform:uppercase;
+    margin:0%;
+    font-weight:bold;
+}
+
+#ulist{
+
+    border: solid;
+    width: 600px;
+}
+
+
+
+h1{
+    font-family: Bippo, fantasy;
+    border:dashed;
+}
+
+em{
+    font-family: Bradley Hand, cursive;
+    text-decoration: underline;
+}
+
+
+ol{
+    margin: 5%;
+    font-weight: bold;
+}
+
+
+
+#olist{
+
+    position: absolute;
+    right: 25%;
+    top: 21%;
+    left: 60%;
+}
+
+#olist{
+
+    border: solid;
+    width: 400px;
+}
+
+
+p{
+   font-family: Apple Chancery, cursive; 
+}
+
+#para{
+
+    position: absolute;
+    top: 750px;
+}
+
+#para{
+
+    border: dashed;
+   
+}
+
+a{
+    color:red;
+    
+}
+
+a:hover{
+
+    color: darkgreen;
+}
