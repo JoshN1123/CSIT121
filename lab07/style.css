@@ -1,0 +1,20 @@
+table, td, th {
+
+    border: 1px solid #000;
+}
+
+
+td, table:not(:hover){
+    background-color: rgb(77, 73, 73);
+    color: white;
+}
+
+td:hover{
+    background-color: rgb(67, 166, 242);
+    color: rgb(0, 0, 0, 0.964);
+}
+
+th{
+    background-color: greenyellow;
+    color: blue;
+}
