@@ -1,0 +1,16 @@
+fieldset {
+    width: 320px;
+    border: 2px ridge #FF0000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(144, 118, 71);
+}

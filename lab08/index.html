@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form Elements</h1>
+
+    <h3> Hello, this is an informational webpage introducing you to the different types of form elements in HTML/CSS!</h3>
+
+    <form>
+        <fieldset>
+        <legend>Input Element Examples</legend>
+        <p> This is an example of Input Elements:</p>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter first name"> <br> <br>
+
+        <label for="lname">`Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter last name"><br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email"><br> <br>
+
+        <label for="phone#">Phone Number:</label>
+        <input type="number" id="phone#" name="phone#" placeholder="(ex: 445-885-3373)"><br> <br>
+        </fieldset>
+
+        <fieldset>
+        <legend>Password Example</legend>
+        <p> This is an example of an Input Element that hides text/number characters when you type in a password:</p>
+        <label for="fname">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password"> <br> <br>
+        </fieldset>
+
+        <fieldset>
+        <legend>Date Example</legend>
+        <p> This is another type of Input element set to "date" to allow the user to easily access dates:</p>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br> <br>
+        </fieldset>
+
+        <fieldset>
+        <legend>TextArea Example</legend>    
+        <p> This is an example of a Textarea element that allows the user to write comments:</p>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="6" maxlength="1600" required> </textarea><br> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Favorite Social Media App</legend>
+            <p>This is an example of a Select List element that allows users to choose an option from a list:</p>
+            <label for="favapp">Select your favorite social media app:</label>
+            <select size="1" name="favapp" id="favapp">
+                <option value="Instagram">Instagram</option>
+                <option value="Snapchat">Snapchat</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Twitter/X">Twitter/X</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+        <legend>Button Example</legend> 
+        <p> These are examples of Button Elements that resets/submits the form:</p>
+        <input type="reset">
+
+        <input type="submit">
+        </fieldset>
+    </form>
+
+</body>
+</html>
