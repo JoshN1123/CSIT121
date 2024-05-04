@@ -1,0 +1,93 @@
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+
+
+h4{
+    font-family: cursive;
+    color: red;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+
+h4{
+    font-family: cursive;
+    color: red;
+}
+
+footer {
+    font-family: cursive;
+    font-weight: bold;
+    color: orange;
+}
+
+a:hover{
+
+    color: yellow;
+}
+
+
+h2{
+    color: rgb(195, 63, 15);
+
+}
+
+
+#actors, #ranks {
+    background-color: rgb(25, 25, 19);
+    box-shadow: 5px 5px 5px 5px red;
+    padding: 30px;
+    
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 400px) {
+    img {
+        flex-direction: column;
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+    img {
+        flex-direction: column;
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 850px) {
+    .container {
+        flex-direction: row;
+    }
+
+   
+}
+
+
